@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9537/9537813.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/home/home.css" />
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Home || EquiTrain</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <div class="header-content">
+                <div class="logo">
+                    <h2>
+                        <a href="#">
+                            EquiTrain
+                        </a>
+                    </h2>
+                </div>
+
+                <nav>
+                    <ul>
+                        <div class="profile-img"><a href="profile.html"></a></div>
+                        <li><a class="start-btn" href="homeContact.html">Contact</a></li>
+                        <!-- <li><button class="subscription start-btn"></button></li> -->
+                        <li><button class="logout start-btn">Logout</button></li>
+                    </ul>
+                </nav>
+
+                
+            </div>
+        </div>
+    </header>
+
+
+    <section class="search pd-y">
+        <div class="container">
+            <div class="wrapper">
+                <h2>Search for user</h2>
+                <form class="search-form" action="#">
+                    <div class="input-box1" style="width: 50%;">
+                        <select class="search-type" id="search-type" style="margin: 15px 0; width: 40%;" required>
+                            <option value="" disabled selected style="display: none">Search Type</option>
+                            <option value="Uid">UID</option>
+                            <option value="Name">Name</option>
+                        </select>
+                    </div>
+                    <div class="input-box1" style="width: 50%; margin-top: 25px;">
+                        <input type="text" id="search-input" placeholder="Enter user Name / UID" required>
+                    </div>
+                    <div class="input-box1 button" style="width: 10%;">
+                        <input type="Submit" value="Search">
+                    </div>
+                </form>
+            </div>
+            <div class="user-info" style="display: none;">
+                <div class="user-info-img">
+                    <img src="" alt="User Photo" id="user-photo">
+                </div>
+                <div class="user-info-infos">
+                    <p id="user-name"></p>
+                    <a href="" class="visit"> Visit full profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script type="module" src="../../java script/home/user.js"></script>
+    <script type="module" src="../../java script/home/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<div class="user">
+    <div class="user-img">
+        <img src="photoProfileUrl from fireStore" alt="User Photo">
+    </div>
+    <div class="user-info">
+        <p class="user-name">name from firestore</p>
+        <a href="" class="visit" style="width: 60%; font-size: 13px;" > Visit full profile</a>
+    </div>
+</div>
